@@ -156,7 +156,7 @@ footer p {
 }
 /*Added css*/
 .masthead {
-    background-color: #f8f9fa;
+    background: linear-gradient(135deg, rgba(225, 20, 131, 0.5) 0%, rgba(36, 114, 170, 0.5) 100%);
     padding-top: 9.5rem;
     padding-bottom: 5rem;
   }

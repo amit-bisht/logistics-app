@@ -127,12 +127,12 @@
     <!-- end header -->
     <!-- Banner -->
     <header class="masthead">
-        <div class="container px-5">
+        <div class="container-fluid py-2">
             <div class="row gx-5 align-items-center">
-                <div class="col-xl-7">
+                <div class="col-xl-6">
                     <div class="text-start">
-                        <h4 class="text-primary text-uppercase fw-bold mb-4">Welcome To Logisti</h4>
-                        <h1 class="fw-600">Streamlining Your Supply Chain</h1>
+                        <h4 class="text-white text-uppercase fw-bold mb-4">Welcome To Logisti</h4>
+                        <h2 class="fw-600">Streamlining Your Supply Chain</h2>
                         <p class="mb-4 fs-20">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy... 
                         </p>
                         <div class="d-flex flex-shrink-0">
@@ -140,34 +140,67 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-5">
-                    <div class="ticket-form p-5">
-                        <h4 class="fw-600 text-dark text-uppercase mb-4">Get Enquiry</h4>
-                        <form>
-                            <div class="row g-4">
-                                <div class="col-12">
-                                    <input type="text" class="form-control border-0 py-2" id="name" placeholder="Your Name">
-                                </div>
-                                <div class="col-12 col-xl-6">
-                                    <input type="email" class="form-control border-0 py-2" id="email" placeholder="Your Email">
-                                </div>
-                                <div class="col-12 col-xl-6">
-                                    <input type="phone" class="form-control border-0 py-2" id="phone" placeholder="Phone">
-                                </div>
-                                
-                                <div class="col-12">
-                                    <input class="form-control border-0 py-2" type="date">
-                                </div>
-                                <div class="col-12">
-                                    <input type="number" class="form-control border-0 py-2" id="number" placeholder="Guest">
-                                </div>
-                                <div class="col-12">
-                                    <button type="button" class="btn w-100 py-2 px-5 btn-base-color-modified">Submit</button>
-                                </div>
+                <div class="col-lg-6 p-2 lg-p-50px xs-ps-30px xs-pe-30px">
+                    
+                    <h2 class="fw-700 text-dark-gray ls-minus-1px mb-45px text-center">Logistics rate calculator!</h2>
+                    <!-- start contact form -->
+                    <form action="email-templates/contact-form.php" method="post" class="row contact-form-style-01">    
+                        <div class="col-md-6 mb-30px sm-mb-20px">
+                            <div class="position-relative form-group mb-20px">
+                                <span class="form-icon"><i class="bi bi-person"></i></span>
+                                <input class="input-name box-shadow-double-large form-control required py-2" type="text" name="name" placeholder="Your name" />
                             </div>
-                        </form>
-                    </div>
-                </div> 
+                            <div class="position-relative form-group mb-20px">
+                                <span class="form-icon"><i class="bi bi-envelope"></i></span>
+                                <input class="box-shadow-double-large form-control required py-2" type="email" name="email" placeholder="Your email" />
+                            </div>
+                            <div class="position-relative form-group select mb-20px">
+                                <span class="form-icon"><i class="bi bi-flag"></i></span>
+                                <select class="form-control box-shadow-double-large py-2" name="booking-city" aria-label="select-city-booking">
+                                    <option value="">Booking city</option>
+                                    <option value="Uk">City of - UK</option>
+                                    <option value="Usa">City of - USA</option>
+                                    <option value="Canada">City of - Canada</option>
+                                    <option value="Dubai">City of - Dubai</option>
+                                    <option value="Singapore">City of - Singapore</option>
+                                </select>
+                            </div>
+                            <div class="position-relative form-group form-textarea">
+                                <span class="form-icon"><i class="bi bi-globe2"></i></span>
+                                <textarea class="box-shadow-double-large form-control" cols="40" rows="4" name="booking-address" placeholder="Booking address"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-30px">
+                            <div class="position-relative form-group mb-20px">
+                                <span class="form-icon"><i class="bi bi-telephone-outbound"></i></span>
+                                <input class="input-name box-shadow-double-large form-control required py-2" type="text" name="phone" placeholder="Your mobile" />
+                            </div>
+                            <div class="position-relative form-group mb-20px">
+                                <span class="form-icon"><i class="bi bi-speedometer2"></i></span>
+                                <input class="box-shadow-double-large form-control required py-2" type="number" name="weight" min="1" max="1000" placeholder="Weight in kg" />
+                            </div>
+                            <div class="position-relative form-group select mb-20px">
+                                <span class="form-icon"><i class="bi bi-flag"></i></span>
+                                <select class="form-control box-shadow-double-large py-2" name="delivery-city" aria-label="select-city-delivery">
+                                    <option value="">Delivery city</option>
+                                    <option value="Uk">City of - UK</option>
+                                    <option value="Usa">City of - USA</option>
+                                    <option value="Canada">City of - Canada</option>
+                                    <option value="Dubai">City of - Dubai</option>
+                                    <option value="Singapore">City of - Singapore</option>
+                                </select>
+                            </div>
+                            <div class="position-relative form-group form-textarea">
+                                <span class="form-icon"><i class="bi bi-globe"></i></span>
+                                <textarea class="box-shadow-double-large form-control" cols="40" rows="4" name="delivery-address" placeholder="Delivery address"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-12 text-center">
+                            <button type="button" class="btn w-85 px-4 py-2  btn-base-color-modified">Get Quote</button>
+                        </div>
+                    </form>
+                    <!-- end contact form -->
+                </div>
             </div>
         </div>
     </header>
