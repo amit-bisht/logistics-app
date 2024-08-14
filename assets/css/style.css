@@ -10377,6 +10377,7 @@ blockquote footer {
   background-color: var(--base-color);
   color: var(--white);
 }
+
 .btn.btn-base-color:hover, .btn.btn-base-color:active {
   background-color: transparent;
   border-color: var(--base-color);
@@ -19326,4 +19327,26 @@ footer .footer-navbar .nav-item:last-child a {
 }
 .footer-demo img {
   max-height: 55px !important;
+}
+/*By amit*/
+.btn.btn-base-color-modified {
+  background-color: var(--modified-base-color);
+  color: var(--white);
+}
+
+.btn.btn-base-color-modified:hover, .btn.btn-base-color-modified:active {
+  background-color: transparent;
+  border-color: var(--modified-base-color);
+  color: var(--modified-base-color);
+}
+.btn.btn-gradient-color {
+  background: linear-gradient(135deg, rgba(225, 20, 131, 0.8) 0%, rgba(36, 114, 170, 0.8) 100%);
+  color: var(--white);
+  border: 1px ;
+}
+
+.btn.btn-gradient-color:hover, .btn.btn-gradient-color:active {
+  background-color: transparent;
+  border-color: linear-gradient(135deg, rgba(225, 20, 131, 0.8) 0%, rgba(36, 114, 170, 0.8) 100%);
+  color: linear-gradient(135deg, rgba(225, 20, 131, 0.8) 0%, rgba(36, 114, 170, 0.8) 100%);
 }

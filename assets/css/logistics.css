@@ -11,6 +11,8 @@
     --dark-gray: #141414;
     --medium-gray: #707070;
     --aluminium-grey: rgba(255, 255, 255, 0.4);
+    --modified-base-color:rgba(225, 20, 131, 1);
+    
 }
 /* reset */
 body{
@@ -152,3 +154,62 @@ footer p {
         padding-bottom: 15px;
     }
 }
+/*Added css*/
+.masthead {
+    background-color: #f8f9fa;
+    padding-top: 9.5rem;
+    padding-bottom: 5rem;
+  }
+
+  .masthead .masthead-device-mockup .circle .gradient-start-color {
+    stop-color: #2937f0;
+  }
+  .masthead .masthead-device-mockup .circle .gradient-end-color {
+    stop-color: #9f1ae2;
+  }
+
+  .masthead .masthead-device-mockup .device-wrapper {
+    max-width: 10rem;
+  }
+  @media (min-width: 576px) {
+    .masthead .masthead-device-mockup .circle {
+      width: 70%;
+      display: block;
+    }
+    .masthead .masthead-device-mockup .device-wrapper {
+      max-width: 12.5rem;
+    }
+  }
+  @media (min-width: 768px) {
+    .masthead .masthead-device-mockup .circle {
+      width: 60%;
+    }
+    .masthead .masthead-device-mockup .device-wrapper {
+      max-width: 15rem;
+    }
+  }
+  @media (min-width: 992px) {
+    .masthead .masthead-device-mockup .circle {
+      width: 90%;
+    }
+    .masthead .masthead-device-mockup .device-wrapper {
+      max-width: 15rem;
+    }
+  }
+  @media (min-width: 1200px) {
+    .masthead .masthead-device-mockup .circle {
+      width: 75%;
+    }
+    .masthead .masthead-device-mockup .device-wrapper {
+      max-width: 15rem;
+    }
+  }
+  @media (min-width: 1400px) {
+    .masthead .masthead-device-mockup .circle {
+      width: 70%;
+    }
+    .masthead .masthead-device-mockup .device-wrapper {
+      max-width: 17rem;
+    }
+}
+/*End*/
