@@ -19350,3 +19350,6 @@ footer .footer-navbar .nav-item:last-child a {
   border-color: linear-gradient(135deg, rgba(225, 20, 131, 0.8) 0%, rgba(36, 114, 170, 0.8) 100%);
   color: linear-gradient(135deg, rgba(225, 20, 131, 0.8) 0%, rgba(36, 114, 170, 0.8) 100%);
 }
+.bg-base-color-modified {
+  background:linear-gradient(135deg, rgba(225, 20, 131, 0.8) 0%, rgba(36, 114, 170, 0.8) 100%);
+}
