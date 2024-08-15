@@ -19356,3 +19356,11 @@ footer .footer-navbar .nav-item:last-child a {
 .border-color-base-color-modified {
   border-color: var(--modified-base-color) !important;
 }
+.text-base-color-hover:hover {
+  color: var(--base-color) !important;
+}
+.text-base-color-modified, .btn-link.text-base-color-modified {
+  background: linear-gradient(135deg, rgba(225, 20, 131, 0.8), rgba(36, 114, 170, 0.8));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
