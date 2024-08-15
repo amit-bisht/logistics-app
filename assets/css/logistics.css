@@ -37,7 +37,7 @@ a:hover{
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 header .navbar-brand img {
-    max-height: 30px;
+    /* max-height: 30px; */
 }
 .header-top-bar div>a {
     color: var(--light-gray);

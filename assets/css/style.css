@@ -7025,7 +7025,7 @@ header .navbar-brand {
 header .navbar-brand .default-logo {
   visibility: visible;
   opacity: 1;
-  width: auto;
+  /* width: auto; */
 }
 header .navbar-brand .alt-logo, header .navbar-brand .mobile-logo {
   visibility: hidden;
