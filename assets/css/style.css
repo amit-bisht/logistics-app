@@ -19353,3 +19353,6 @@ footer .footer-navbar .nav-item:last-child a {
 .bg-base-color-modified {
   background:linear-gradient(135deg, rgba(225, 20, 131, 0.8) 0%, rgba(36, 114, 170, 0.8) 100%);
 }
+.border-color-base-color-modified {
+  border-color: var(--modified-base-color) !important;
+}
