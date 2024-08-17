@@ -258,8 +258,7 @@ background: linear-gradient(to right, #49a09d, #5f2c82); /* W3C, IE 10+/ Edge, F
 .icon-base-color-courier{
     color: #c2e59c!important;
 }
-.my-ul{
-    list-style-type: disc!important;
-    padding-left: 20px
+.btn-base-color-courier{
+    background-color: #49a09d;
 }
 /*end*/
