@@ -149,11 +149,84 @@
     <!-- start page title -->
     <section class="top-space-margin page-title-big-typography cover-background pt-0 pb-0 bg-base-color-courier">
         <div class="container">
-            <div class="row align-items-center justify-content-center small-screen">
-                <div class="col-xl-5 col-sm-8 page-title-double-large text-center"
-                    data-anime='{ "el": "childs", "opacity": [0, 1], "translateY": [30, 0], "duration": 600, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                    <h1 class="text-color-for-bg-courier fw-700 mb-5px">Courier</h1>
-                    <h2 class="text-white fw-600 ls-1px mb-0 text-uppercase">Let's see our services</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-4">
+                    <div>
+
+                    </div>
+                </div>
+                <div class="col-lg-8 p-6 lg-p-50px xs-ps-30px xs-pe-30px">
+                    <span class="fs-16 lh-22 fw-700 mb-15px d-inline-block text-uppercase  border-bottom border-2 border-color-base-color-courier text-white">World best logistics</span>
+                    <h2 class="fw-700 text-color-for-bg-courier ls-minus-1px mb-45px">Logistics rate calculator!</h2>
+                    <!-- start contact form -->
+                    <form action="email-templates/contact-form.php" method="post" class="row contact-form-style-01">    
+                        <div class="col-md-6 mb-30px sm-mb-20px">
+                            <div class="position-relative form-group mb-20px">
+                                <span class="form-icon"><i class="bi bi-person"></i></span>
+                                <input class="input-name box-shadow-double-large form-control required" type="text" name="name" placeholder="Your name" />
+                            </div>
+                            <div class="position-relative form-group mb-20px">
+                                <span class="form-icon"><i class="bi bi-envelope"></i></span>
+                                <input class="box-shadow-double-large form-control required" type="email" name="email" placeholder="Your email" />
+                            </div>
+                            <div class="position-relative form-group select mb-20px">
+                                <span class="form-icon"><i class="bi bi-flag"></i></span>
+                                <select class="form-control box-shadow-double-large" name="booking-city" aria-label="select-city-booking">
+                                    <option value="">Booking city</option>
+                                    <option value="Uk">City of - UK</option>
+                                    <option value="Usa">City of - USA</option>
+                                    <option value="Canada">City of - Canada</option>
+                                    <option value="Dubai">City of - Dubai</option>
+                                    <option value="Singapore">City of - Singapore</option>
+                                </select>
+                            </div>
+                            <div class="position-relative form-group form-textarea">
+                                <span class="form-icon"><i class="bi bi-globe2"></i></span>
+                                <textarea class="box-shadow-double-large form-control" cols="40" rows="4" name="booking-address" placeholder="Booking address"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-30px">
+                            <div class="position-relative form-group mb-20px">
+                                <span class="form-icon"><i class="bi bi-telephone-outbound"></i></span>
+                                <input class="input-name box-shadow-double-large form-control required" type="text" name="phone" placeholder="Your mobile" />
+                            </div>
+                            <div class="position-relative form-group mb-20px">
+                                <span class="form-icon"><i class="bi bi-speedometer2"></i></span>
+                                <input class="box-shadow-double-large form-control required" type="number" name="weight" min="1" max="1000" placeholder="Weight in kg" />
+                            </div>
+                            <div class="position-relative form-group select mb-20px">
+                                <span class="form-icon"><i class="bi bi-flag"></i></span>
+                                <select class="form-control box-shadow-double-large" name="delivery-city" aria-label="select-city-delivery">
+                                    <option value="">Delivery city</option>
+                                    <option value="Uk">City of - UK</option>
+                                    <option value="Usa">City of - USA</option>
+                                    <option value="Canada">City of - Canada</option>
+                                    <option value="Dubai">City of - Dubai</option>
+                                    <option value="Singapore">City of - Singapore</option>
+                                </select>
+                            </div>
+                            <div class="position-relative form-group form-textarea">
+                                <span class="form-icon"><i class="bi bi-globe"></i></span>
+                                <textarea class="box-shadow-double-large form-control" cols="40" rows="4" name="delivery-address" placeholder="Delivery address"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-auto text-center text-md-end sm-mt-20px lg-mb-15px">
+                            <input type="hidden" name="redirect" value="">
+                            <button class="btn btn-base-color-courier btn-switch-text btn-medium left-icon btn-round-edge submit btn-box-shadow text-white" type="submit">
+                                <span>
+                                    <span><i class="feather icon-feather-mail"></i></span>
+                                    <span class="btn-double-text" data-text="Get a quote">Get a quote</span> 
+                                </span>
+                            </button>
+                        </div>
+                        <div class="col-xl-7 align-self-center last-paragraph-no-margin">
+                            <p class="fs-16 lh-24 w-80 xxl-w-100 text-white">*We are committed to protecting your <a href="#" class="text-white text-decoration-line-bottom fw-500">privacy.</a> We will never collect information about you.</p>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-results mt-20px d-none"></div>
+                        </div>
+                    </form>
+                    <!-- end contact form -->
                 </div>
             </div>
         </div>
@@ -310,7 +383,7 @@
     <!-- end section -->
     <!-- start section -->
     <section class="position-relative">
-        <div class="container my-5">
+        <div class="container my-1">
             <div class="row align-items-center">
                 <div class="col-md-6">
                    <div>

@@ -252,13 +252,15 @@ background: linear-gradient(to right, #49a09d, #5f2c82); /* W3C, IE 10+/ Edge, F
 .text-color-for-bg-courier{
     color:#E0E0E0;
 }
-.border-color-base-color-courier{
-    border-color: #c2e59c!important;
-}
+
 .icon-base-color-courier{
     color: #c2e59c!important;
 }
 .btn-base-color-courier{
     background-color: #5f2c82;
 }
+.border-color-base-color-courier{
+    border-color: #5f2c82!important;
+}
+
 /*end*/
