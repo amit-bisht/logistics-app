@@ -236,4 +236,10 @@ footer p {
 .text-color-for-bg{
     color: #0a2a47;
 }
+.border-color-base-color-aboutus{
+    border-color: #c2e59c!important;
+}
+.icon-base-color-aboutus{
+    color: #c2e59c!important;
+}
 /*end*
